@@ -2,9 +2,9 @@ Flux RSS pour les sites du rugby français
 =========================================
 
 
-Liens vers les différents flux RSS de sites français d'actualité rugbystique.
+Liens vers les différents flux RSS des sites d'actualité rugbystique française.
 
-Ou, à défaut, scripts pythons pour les construite.
+Ou, à défaut, scripts Python pour les construire.
 
 ## Sites généralistes
 
@@ -28,9 +28,18 @@ A rajouter:
 |-----------------|----------------------------------------------------|
 | Sud Ouest       | http://www.sudouest.fr/sport/rugby/rss.xml         |
 | La Depeche      | http://www.ladepeche.fr/rss/rugby-xv.rss           |
+| Var-matin       | http://www.varmatin.com/sujet/rugby/rss            |
 
-## Site spécialisé Stade Toulousain
+A rajouter:
 
-France Bleu: https://www.francebleu.fr/theme/stade-toulousain
-La Dépêche: http://www.ladepeche.fr/rss/stade-toulousain.rss
+* http://www.lamontagne.fr/sports/asm.html
+
+## Sites spécialisés Stade Toulousain
+
+* France Bleu: https://www.francebleu.fr/theme/stade-toulousain
+* La Dépêche: http://www.ladepeche.fr/rss/stade-toulousain.rss
+
+## Sites spécialisés RCT
+
+* http://www.varmatin.com/sujet/rct/rss
 
