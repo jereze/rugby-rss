@@ -43,7 +43,7 @@ for i in items:
 
     # getting the identifier
     id_search = re.search('[a-z]+(\d+)/[a-z]+\.shtml', link, re.IGNORECASE)
-    id = 'empty' if len(id_search.groups()) == 0 else id_search.group(1)
+    id = link if id_search is not None else id_search.group(1)
 
     feed.add_item(
             title=title,
