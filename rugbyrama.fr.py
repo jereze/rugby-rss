@@ -4,7 +4,7 @@
 from lxml import etree
 import feedgenerator
 import requests
-import os
+import os.path
 import urlparse
 import re
 
@@ -55,5 +55,8 @@ for i in items:
 # print ""
 # print feed.writeString('utf-8')
 
-with open('rugbyrama.fr.rss', 'w') as fp:
+dir_path = os.path.dirname(os.path.realpath(__file__))
+output = os.path.join(dir_path, 'rugbyrama.fr.rss')
+
+with open(output, 'w') as fp:
     feed.write(fp, 'utf-8')
